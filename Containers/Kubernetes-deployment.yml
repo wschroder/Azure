@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: demoapp-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: demowebapp
+  template:
+    metadata:
+      labels:
+        app: demowebapp
+    spec:
+      containers:
+      - name: demowebapp
+        image: waynesworldcr.azurecr.io/demowebapp
+        ports:
+        - containerPort: 5000
