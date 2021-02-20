@@ -1,0 +1,6 @@
+{
+    "StorageAccount": {
+        "Name": "wlslabphotolabstorage",
+        "ResourceGroup": "wls-lab-photolab-rg"
+    }
+}

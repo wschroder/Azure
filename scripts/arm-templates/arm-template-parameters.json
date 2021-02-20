@@ -1,0 +1,24 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "func_app_1": {
+            "value": "Tst01-FuncApp1"
+        },
+        "func_app_2": {
+            "value": "Tst01-FuncApp2"
+        },
+        "storageAccount2": {
+            "value": "tst01storageacct1"
+        },
+        "storageAccount": {
+            "value": "tst01storageacct2"
+        },
+        "alertRules": {
+            "value": "failure anomalies - portal-defined-func1"
+        },
+        "smartDetectorActionGroup": {
+            "value": "/subscriptions/7dec8130-70bb-476f-b4cd-cc3eb2ee9f1e/resourceGroups/bps-dev-env-resource-group/providers/microsoft.insights/actiongroups/application insights smart detection"
+        }
+    }
+}
