@@ -1,3 +1,7 @@
+<#
+    Sample header. 
+#>
+
 $location = "EAST US"
 $rgName = "managed-identity-rg"
 $computerName = "gfc-vm208"
@@ -51,7 +55,7 @@ function CreateNetworkSecurityGroup {
 $adminUser = Read-Host -Prompt "Admin user"
 if ("admin" -eq $adminUser) {
     throw "'admin' is an invalid user id."
-s}
+}
 $adminPassword = Read-host -Prompt "Password" -AsSecureString
 
 $nsg = CreateNetworkSecurityGroup -Name "nsg01"
