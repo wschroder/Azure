@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Storage.Queue.Domain\Storage.Queue.Domain.csproj" />
+    <ProjectReference Include="..\Storage.Queue.Support\Storage.Queue.Support.csproj" />
+    <ProjectReference Include="..\Storage.Queues.Common\Storage.Queues.Common.csproj" />
+  </ItemGroup>
+
+</Project>
